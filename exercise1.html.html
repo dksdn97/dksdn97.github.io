@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+<script>
+
+    function getWordsBeginWith(words, begin_char) {
+        var return_words = [];
+        var small_char = begin_char.toLowerCase();
+        var upper_char = begin_char.toUpperCase();
+
+    for (var i = 0; i < words.length; i++) {
+        if (words[i].startsWith(small_char) || words[i].startsWith(upper_char))
+            return_words.push(words[i]);
+         }
+        return return_words ;
+      }
+    var test = ['apple', 'Apple', 'banana', 'Blueberry', 'peach', 'Melon'];
+    var ret = getWordsBeginWith(test, 'b');
+    console.log(ret.join(','));
+
+    </script>
+
+</head>
+<body>
+
+
+
+</body>
+</html>
