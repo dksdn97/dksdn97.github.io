@@ -29,7 +29,10 @@
     $('h2').each(function(i) {
         var current = $(this);
         current.attr('id', 'title' + i);
-        $('#toc').append('<li><a href="#title' + i + '">' + current.html() + '</a></li>');
+        $('#toc').append('<ul>'+'<li>'+'<a href="#title' + i + '">' + current.html() + '</a>');
+    });
+        $('#menu').click(function(){
+        $("#toc").slideToggle('slow');
     });
 </script>
 </body>
