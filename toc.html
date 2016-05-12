@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,9 @@
 
 <h1>사람아 아, 사람아!</h1>
 
-<h1>차례</h1>
+
+<h1 id="menu">차례</h1>
+
 <div id="toc"></div>
 
 <h2>제1장 저마다의 진실</h2>
@@ -31,9 +34,11 @@
         current.attr('id', 'title' + i);
         $('#toc').append('<ul>'+'<li>'+'<a href="#title' + i + '">' + current.html() + '</a>');
     });
-        $('#menu').click(function(){
+
+    $('#menu').click(function(){
         $("#toc").slideToggle('slow');
     });
 </script>
+
 </body>
 </html>
