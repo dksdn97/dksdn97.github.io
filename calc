@@ -12,6 +12,7 @@ var debug_out = document.getElementById("debug_area");
 var debug_text = "<p>first_val:" + first_val + "</p>"
 debug_text += "<p>operand:" + operand + "</p>"
 debug_out.innerHTML = debug_text;
+debug_out.style.background='blue';
 }
 
 function button_click() {
@@ -108,7 +109,7 @@ document.getElementById("btn_clear").onclick = button_clear;
 <button id="btn_multi">×</button>
 <button id="btn_div">÷</button>
 <button id="btn_equal">=</button><br/>
-<button id="btn_equal">=</button><br/>
+
 
 <div id="debug_area">
 </div>
