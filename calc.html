@@ -9,10 +9,10 @@
 
         function display_debug() {
             var debug_out = document.getElementById("debug_area");
+                        debug_area.style.color='darkblue';
+                        debug_area.style.background='powderblue';
             var debug_text = "<p>first_val:" + first_val + "</p>";
             debug_text += "<p>operand:" + operand + "</p>";
-            debug_out.style.color='darkblue';
-            debug_out.style.background='powderblue';
             debug_out.innerHTML = debug_text;
             
             
