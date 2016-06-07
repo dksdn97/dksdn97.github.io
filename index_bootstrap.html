@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <title>정안우</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        .navbar {
+            background: gold;
+            margin-bottom: 0;
+            border: 0;
+        }
+        .jumbotron {
+            background: lightpink;
+        }
+        .timecolor{
+            background:yellow;
+            font-weight: bold;
+        }
+        th{
+            background: skyblue;
+        }</style>
+</head>
+<body >
+<div id="header">
+    <h1 id="title">정안우의 홈페이지</h1>
+</div>
+
+<div id="content">
+  <div class="subject">
+    <h1>정안우</h1>
+      <li><a href="#1">자기소개</a></li>
+      <li><a href="#2">특기</a></li>
+      <li><a href="#3">과목</a> </li>
+      <li><a href="#4">댓글남기기</a></li>
+
+
+  </div>
+  <div class="subject">
+<h1 id="1">자기소개</h1>
+      <li>한성대학교</li>
+      <li>강철공대</li>
+      <li>IT응용시스템</li>
+      <li>1694040</li>
+  </div >
+    <div class="subject">
+<h1 id="2">특기</h1>
+      <ul>
+          <li>검도</li>
+          <img src="검도찡.jpg"/>
+          <li>달리기</li>
+          <img src="달리기.jpg"/>
+
+      </ul>
+    </div >
+
+  </div >
+<div class="subject">
+      <h1 id="3">과목</h1>
+<ul>
+    <li id="blue">c프로그래밍</li>
+     <ol>
+        <li>담당교수:조혜경</li>
+        <li>장소:공학관106호</li>
+     </ol>
+   <li id="blue">세계음식과 문화</li>
+     <ol>
+       <li>담당교수:문경덕</li>
+       <li>장소:탐구관407</li>
+     </ol>
+</ul>
+    <table border="2">
+        <thead>
+        <tr>
+            <th>주간</th>
+            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;월&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>화</th>
+            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>목</th>
+            <th>금</th>
+        </tr>
+        </thead>
+        <th>
+            <tr>
+                <th>1교시<br/>09:00~09:50</th><td></td><td rowspan="2">웹프로그래밍</td><td></td><td></td><td>웹프로그래밍</td>
+            </tr>
+            <tr>
+                <th>2교시<br/>10:00~10:50</th><td></td><td></td><td></td><td rowspan="2">소프트웨어의이해</td>
+            </tr>
+            <tr>
+                <th>3교시<br/>11:00~11:50</th><td></td><td rowspan="2">일반물리</td><td></td><td></td>
+            </tr>
+            <tr>
+                <th>4교시<br/>12:00~12:50</th><td></td><td></td><td>웹프로그래밍</td><td></td>
+            </tr>
+        <th>5교시<br/>01:00~01:50</th> <td></td><td rowspan="2">영어커뮤니케이션</td><td rowspan="2">사고와표현</td><td></td><td></td>
+        </tr>
+        <tr>
+            <th>6교시<br/>02:00~02:50</th> <td></td> <td></td> <td></td>
+        </tr>
+        <tr>
+            <th>7교시<br/>03:00~03:50</th> <td>C프로그래밍</td> <td></td> <td></td> <td></td> <td></td>
+        </tr>
+        <tr>
+            <th>8교시<br/>04:00~04:50</th> <td rowspan="2">세계음식과 문화</td> <td></td> <td rowspan="2">C프로그래밍</td> <td></td> <td></td>
+        </tr>
+        <tr>
+            <th>9교시<br/>05:00~05:50</th>  <td></td> <td></td> <td></td>
+        </tr>    </tbody>
+    </table>
+<audio src="" controls="controls"></audio>
+    <video width="340" controls="controls">
+        <source src="">
+    </video>
+</div>
+<div class="subject">
+      <h1 id="4">댓글 남기기</h1>
+<fieldset>
+   <legend>작성자 정보</legend>
+       <form>
+           <label for="name">이름</label>
+        <input id="name" type="text"/><br/>
+           <td>성별</td>
+        <input id="man"type="radio" name="gender">
+        <label for="man">남자</label>
+        <input id="woman"type="radio"name="gender">
+        <label for="woman">여자</label>
+      </form>
+</fieldset>
+<fieldset>
+    <legend>댓글 달기</legend>
+    <form>
+<input type="text">
+        <input type="submit">
+
+
+    </form>
+</fieldset>
+</div>
+    </div>
+
+
+
+</body>
+</html>
